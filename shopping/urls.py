@@ -18,9 +18,6 @@ from django.urls import path,include
 from django.conf.urls.static import static
 from django.conf import settings
 
-from django.views.static import serve
-from django.conf.urls import url
-
 
 admin.site.site_header = 'Shopping Website'   # To show the admin header
 admin.site.site_title = 'Shopping Admin'
